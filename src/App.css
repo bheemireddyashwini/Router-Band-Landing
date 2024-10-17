@@ -1,0 +1,23 @@
+.fade-enter {
+    opacity: 0;  /* Element is invisible at the start of entering */
+  }
+  
+  .fade-enter-active {
+    opacity: 1;  /* Element becomes fully visible */
+    transition: opacity 300ms;  /* Transition duration of 300ms */
+  }
+  
+  .fade-exit {
+    opacity: 1;  /* Element is fully visible at the start of exiting */
+  }
+  
+  .fade-exit-active {
+    opacity: 0;  /* Element fades out */
+    transition: opacity 300ms;  /* Transition duration of 300ms */
+  }
+
+  main {
+    background-color: black;
+  
+  
+  }

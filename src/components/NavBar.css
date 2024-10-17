@@ -1,0 +1,40 @@
+.nav-logo {
+  width: 500px;
+  height: 300px;
+  padding-top: 50px;
+  padding: 80px;
+  animation: mymove 5s infinite;
+/*position: absolute;*/
+}
+/* @keyframes mymove {
+  50% {opacity: 0;}
+
+} */
+
+.nav-container {
+  margin: auto;
+  width: 800px;
+  height: 400px;
+}
+
+ul {
+  width: 780px;
+  display: flex;
+  gap: 140px;
+  align-items: center;
+  margin: auto;
+  color: aliceblue;
+  list-style-type: none;
+}
+
+li .link {
+  text-decoration: none;
+  font-size: 30px;
+  transition: background-color 0.3s ease;
+}
+
+li .link:hover {
+  background-color: #f7f4eb;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px #2c7ae0;
+}
